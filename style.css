@@ -1,0 +1,175 @@
+#station {
+	display: block;
+	flex-wrap: wrap;
+	width: 380px;
+	justify-content: left;
+	float: left;
+}
+
+#navbar {
+	height: 32px;
+	background: #dcdcdc;
+}
+
+@media (prefers-color-scheme: dark) {
+#navbar {
+	background: #111;
+	color: #fff;
+}
+
+body {
+	background: #010101 !important;
+	color: #fff;
+	margin: 0;
+	background-image: url("assets/nct.png");
+	background-size: 100%;
+}
+
+kbd {
+	background: #222 !important;
+}
+
+#footer {
+	background: #111 !important;
+	color: #fff;
+	}
+
+	a{
+	color: #ffcd00;
+	}
+
+	button {
+		background: #222 !important;
+		color: #fff !important;
+	}
+	button:hover {
+		background:#444 !important;
+	}
+
+.sidebar {
+  background-color: #111 !important;
+}
+
+.sidebar a {
+  color: white !important;
+ }
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+	
+}
+
+	button {
+		background: #ccc;
+		color: #fff;
+		border-width:0px;
+		padding: 6px;
+		margin-right: 2px;
+	}
+	button:hover {
+		background:#aaa ;
+	}
+
+a {
+	font-family: b612 regular;
+}
+
+body {
+	background: #f0f0f0;
+}
+
+#footer {
+	background: #dcdcdc;
+	padding: 8px;
+	margin-top: 8px;
+	}
+p {
+		font-family: b612 regular;
+}
+
+@font-face {
+	font-family: b612 regular;
+	src: url("B612-Regular.ttf");
+}
+
+@font-face {
+	font-family: Iosevka;
+	src: url("typefaces/Iosevka-Regular.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: b612 regular, arial, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ddd;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 4px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 0px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+#span.frontpage {
+	background-image: url("assets/nct.png");
+	background-size: 100%;
+}
+
+#yellowcolour {
+	display: block;
+	background: #ffcd00;
+	width: 16px;
+	height: 16px;
+	float: left;
+	border-radius: 2px;
+}
