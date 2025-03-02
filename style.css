@@ -21,8 +21,6 @@ body {
 	background: #010101 !important;
 	color: #fff;
 	margin: 0;
-	background-image: url("assets/nct.png");
-	background-size: 100%;
 }
 
 kbd {
@@ -70,8 +68,9 @@ kbd {
 		background: #ccc;
 		color: #fff;
 		border-width:0px;
-		padding: 6px;
+		padding: 8px;
 		margin-right: 2px;
+		margin-bottom: 2px;
 	}
 	button:hover {
 		background:#aaa ;
@@ -96,12 +95,12 @@ p {
 
 @font-face {
 	font-family: b612 regular;
-	src: url("B612-Regular.ttf");
+	src: url("assets/B612-Regular.ttf");
 }
 
 @font-face {
 	font-family: Iosevka;
-	src: url("typefaces/Iosevka-Regular.ttf");
+	src: url("assets/Iosevka-Regular.ttf");
 }
 
 h1, h2, h3, h4, h5, h6 {
